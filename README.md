@@ -1,4 +1,8 @@
-Problem Statement: Predicting Stock Price Movements Using Machine Learning
+Problem Statement: 
+
+Predicting future stock prices is one of the most challenging aspects of developing an investment strategy. This difficulty is compounded by information and resource asymmetries between large corporate entities and everyday people [1]. While corporate entities can afford to expend significant resources to gain insight into future stock prices, individual investors lack access to detailed insider information or expensive models [1]. However, research indicates machine learning models, such as LSTM, may be effective at predicting future stock prices [2]. This raises the question of whether introductory-level machine learning models, trained solely on historical stock data, could be used to predict future stock prices. If yes, utilization of these models could reduce information and resource asymmetries that disadvantage everyday investors.  
+
+Predicting Stock Price Movements Using Machine Learning
 
 Synopsis: The goal of this project is to predict short-term stock price movements using machine learning techniques. By analyzing historical stock data, we will develop a model that can forecast the direction of stock prices (up or down) for the next trading day. This project will leverage time series analysis, feature engineering, and various classification algorithms to provide actionable insights for traders. Additionally, we will leverage course concepts such as data normalization, logistic regression, correlative analysis, model training. Ultimately, this project will solve the real-life problem of investors with insufficient knowledge to make ideal investment decisions. 
 
@@ -35,3 +39,7 @@ Complexity: Assess the complexity and interpretability of each model.
 
 Tools & Libraries: 
 Python, Pandas, NumPy, Scikit-Learn, TensorFlow/Keras, Matplotlib, Alpha Vantage API, Jupyter Notebook, GitHub, Google Colab, AWS or Google Cloud
+
+Sources:
+1. https://publications.aaahq.org/accounting-review/article-abstract/87/1/35/3364/Investor-Competition-over-Information-and-the
+2. https://link.springer.com/article/10.1007/s13198-022-01811-1
